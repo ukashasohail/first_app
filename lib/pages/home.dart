@@ -5,8 +5,11 @@ class HomePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return new Material(
-      color: Color.fromRGBO(10, 108, 235, 80),
+
+      color: Color.fromRGBO(10, 108, 235, 80), // RGB Combo for Blue => Homepage
+      
       child: new InkWell(
+        
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
